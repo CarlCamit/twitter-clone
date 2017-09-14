@@ -57,5 +57,5 @@ I made 3 tables for my app, User, Tweet, and Profile. User stores the user infor
 - Tweet
 - Tweet & replies
 - Media
-- Who to following
+- Who to follow
 - Trending
