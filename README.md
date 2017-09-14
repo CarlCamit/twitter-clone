@@ -59,3 +59,6 @@ I made 3 tables for my app, User, Tweet, and Profile. User stores the user infor
 - Media
 - Who to follow
 - Trending
+
+## Figma
+***
