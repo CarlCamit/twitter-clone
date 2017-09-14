@@ -40,4 +40,22 @@ I made 3 tables for my app, User, Tweet, and Profile. User stores the user infor
 - See tweet
 - Edit tweet (if logged in)
 
-##
+## Profile Page
+- Header photo
+- Avatar photo
+- Name
+- Handle
+- Biography
+- Account creation date
+- Photos
+- Tweet count
+- Following count
+- Follower count
+- Like count
+- Moment count
+- Edit ability
+- Tweet
+- Tweet & replies
+- Media
+- Who to following
+- Trending
