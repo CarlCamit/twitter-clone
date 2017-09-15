@@ -1,0 +1,51 @@
+<%= form_with(model: profile, local: true) do |form| %>
+<% if profile.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(profile.errors.count, "error") %> Profile could not be created!</h2>
+ 
+    <ul>
+    <% profile.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<div>
+    <%= form.label :avatarPhoto %>
+    <%= form.text_field :avatarPhoto, id: :avatarPhoto %>
+</div>
+<div>
+    <%= form.label :headerPhoto %>
+    <%= form.text_field :headerPhoto, id: :headerPhoto %>
+</div>
+<div>
+    <%= form.label :name %>
+    <%= form.text_field :name, id: :name %>
+</div>
+<div>
+    <%= form.label :biography %>
+    <%= form.text_field :biography, id: :biography %>
+</div>
+<div>
+    <%= form.label :location %>
+    <%= form.text_field :location, id: :location %>
+</div>
+<div>
+    <%= form.label :website %>
+    <%= form.text_field :website, id: :website %>
+</div>
+<div>
+    <%= form.label :themeColor %>
+    <%= form.text_field :themeColor, id: :themeColor %>
+</div>
+<div>
+    <%= form.label :birthday %>
+    <%= form.text_field :birthday, id: :birthday %>
+</div>
+
+<div class="actions">
+    <%= form.submit %>
+</div>
+
+<% end %>

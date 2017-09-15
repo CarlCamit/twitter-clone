@@ -1,0 +1,7 @@
+<h1>Show Profile</h1>
+
+<%= image_tag @profile.avatarPhoto, width: 200 %><br>
+<%= image_tag @profile.headerPhoto, width: 200 %><br>
+<br>
+
+<%= link_to 'Back', profiles_path %> | <%= link_to 'Edit', edit_profile_path(@profile) %>

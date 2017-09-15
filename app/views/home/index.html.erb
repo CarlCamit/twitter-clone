@@ -3,7 +3,9 @@
 <ul>
 
     <% @tweets.each do |tweet| %>
-        <li><%= tweet.message %></li>
+        <li><%= tweet.message %> | <%= tweet.user.email %> | <%= tweet.created_at %> </li>
     <% end %>
+
+    <%= link_to 'New Profile', new_profile_path %>
 
 </ul>
